@@ -29,9 +29,12 @@ int main() {
 	test.post(5,10,Direction::Vertical,"how");//3
 	test.post(6,12,Direction::Horizontal,"are");//3
 	test.post(7,14,Direction::Vertical,"you");//3
-	test.post(8,16,Direction::Horizontal,"today");//5
-	test.post(9,18,Direction::Vertical,"?");//1
-
+	test.post(8,16,Direction::Horizontal,"tday");//5
+	test.post(9,30,Direction::Vertical,"?");//1
+	test.post(9,30,Direction::Vertical,"g");//1
+	test.post(12,4,Direction::Horizontal,"(0_0)");
+	test.post(13,3,Direction::Horizontal,"/( : )>");
+	test.read(9,30,Direction::Vertical,1);
 
 	test.show(); // shows the board in a reasonable way. For example:
 		//    98:  _________

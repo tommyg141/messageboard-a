@@ -85,3 +85,4 @@ TEST_CASE("test post-v+h"){
 	CHECK(test.read(8,16,Direction::Horizontal,5)=="today");//5
 	CHECK(test.read(9,18,Direction::Vertical,1)=="?");//1
 	}
+	
